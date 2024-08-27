@@ -1,5 +1,4 @@
 const app = document.getElementById("app");
-
 const root = ReactDOM.createRoot(app);
 
 const title = React.createElement("h1", null, "Example Button");
