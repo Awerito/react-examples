@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
