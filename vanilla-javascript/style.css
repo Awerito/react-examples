@@ -1,0 +1,20 @@
+/* round corners blue button */
+
+.round-corners-blue-button {
+  background-color: #0073e6;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.round-corners-blue-button:hover {
+  background-color: #005bb5;
+  cursor: pointer;
+}
+
+button.active {
+  background-color: #005bb5;
+}
