@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CITIES = [
   { code: 'SCFA', name: "Antofagasta" },
   { code: 'SCAR', name: "Arica" },
