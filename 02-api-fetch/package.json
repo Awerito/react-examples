@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@api/apis-chile": "file:.api/apis/apis-chile",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
