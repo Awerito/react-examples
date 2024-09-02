@@ -8,7 +8,7 @@ export default function Products({ products }) {
           <li key={product.id}>
             <img src={product.thumbnail} alt={product.description} />
             <div>
-              <strong>{product.title}</strong>
+              <strong>{product.title}</strong> - ${product.price}
             </div>
             <div>
               <button>Add to cart</button>
