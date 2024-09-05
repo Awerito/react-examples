@@ -1,6 +1,10 @@
 import './Products.css';
+import { useContext } from 'react';
+import { CartContext } from '../contexts/CartContext';
 
 export default function Products({ products }) {
+  const { addToCart } = useContext(CartContext);
+
   return (
     <div className="products">
       <ul>
@@ -11,7 +15,7 @@ export default function Products({ products }) {
               <strong>{product.title}</strong> - ${product.price}
             </div>
             <div>
-              <button>Add to cart</button>
+              <button onClick={() => addToCart(product)}>Add to cart</button>
             </div>
           </li>
         ))}
