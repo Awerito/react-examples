@@ -12,21 +12,20 @@ export default function Cart() {
 
       <aside className='cart'>
         <ul>
-          <li>
-            <img
-              src='https://via.placeholder.com/50'
-              alt='IPhone 12 Pro Max'
-            />
+          {cart.map((product) => (
+            <li key={product.id}>
+              <img src={product.thumbnail} alt={product.description} />
 
-            <div>
-              <strong>IPhone 12 Pro Max</strong> - $9.999,99
-            </div>
+              <div>
+                <strong>{product.title}</strong> - ${product.price}
+              </div>
 
-            <footer>
-              <small>Quantity: 1</small>
-              <button>+</button>
-            </footer>
-          </li>
+              <footer>
+                <small>Quantity: {product.quantity}</small>
+                <button>+</button>
+              </footer>
+            </li>
+          ))}
         </ul>
 
         <button onClick={clearCart}>Clear cart</button>
