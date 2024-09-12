@@ -1,20 +1,8 @@
-import { useEffect, useState } from 'react';
+import useFetchWeather from '../hooks/useFetchWeather';
 
 const Weather = ({ code }) => {
-  const [data, setData] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const { data, isLoading, error } = useFetchWeather(code);
 
-  useEffect(() => {
-    setIsLoading(true)
-    setError(null)
-
-    fetch(`https://api.boostr.cl/weather/${code}.json`)
-      .then(response => response.json())
-      .then(data => setData(data.data))
-      .catch(error => setError(error))
-      .finally(() => setIsLoading(false))
-  }, [code]);
 
   if (isLoading) {
     return <p>Cargando...</p>;
