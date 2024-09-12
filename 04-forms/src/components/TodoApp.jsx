@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { Button, TextInput, Paper, Checkbox, Container, Group, Title } from '@mantine/core';
+import { useLocalStorage } from '@mantine/hooks';
 
 function TodoApp() {
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useLocalStorage({ key: 'todos', defaultValue: [] });
   const [task, setTask] = useState('');
 
   const addTodo = () => {
