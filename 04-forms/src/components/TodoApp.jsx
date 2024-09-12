@@ -51,7 +51,7 @@ function TodoApp() {
               checked={todo.completed}
               label={todo.text}
               onChange={() => toggleTodoCompletion(index)}
-              style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}
+              style={{ textDecoration: todo.completed ? 'line-through' : 'none', marginLeft: 10 }}
             />
             <Button color="red" onClick={() => deleteTodo(index)}>
               Delete
