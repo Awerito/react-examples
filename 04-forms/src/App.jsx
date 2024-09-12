@@ -1,3 +1,4 @@
+import '@mantine/core/styles.css';
 import './App.css'
 import { MantineProvider } from '@mantine/core';
 import CustomForm from './components/CustomForm'
@@ -6,7 +7,7 @@ import Demo from './components/MantineForm'
 
 function App() {
   return (
-    <MantineProvider withGlobalStyles withNormalizeCSS>
+    <MantineProvider>
       <h1>React Form</h1>
       <CustomForm />
       <h1>Range Input</h1>

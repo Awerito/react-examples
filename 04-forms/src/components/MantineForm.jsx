@@ -1,4 +1,3 @@
-import '@mantine/core/styles.css';
 import { Button, Checkbox, Group, TextInput } from '@mantine/core';
 import { useForm } from '@mantine/form';
 
