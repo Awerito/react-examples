@@ -13,3 +13,6 @@
 [submodule "04-twitter-cards"]
 	path = 04-twitter-cards
 	url = git@github.com:Awerito/04-twitter-cards.git
+[submodule "05-api-fetch"]
+	path = 05-api-fetch
+	url = git@github.com:Awerito/05-api-fetch.git
