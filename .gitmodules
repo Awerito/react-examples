@@ -10,3 +10,6 @@
 [submodule "03-react-hello-world"]
 	path = 03-react-hello-world
 	url = git@github.com:Awerito/03-react-hello-world.git
+[submodule "04-twitter-cards"]
+	path = 04-twitter-cards
+	url = git@github.com:Awerito/04-twitter-cards.git
