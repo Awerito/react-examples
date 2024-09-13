@@ -22,3 +22,6 @@
 [submodule "07-todo-app"]
 	path = 07-todo-app
 	url = git@github.com:Awerito/07-todo-app.git
+[submodule "08-shopping-cart-mantine"]
+	path = 08-shopping-cart-mantine
+	url = git@github.com:Awerito/08-shopping-cart-mantine.git
