@@ -1,3 +1,6 @@
 [submodule "00-javascript-basics"]
 	path = 00-javascript-basics
 	url = git@github.com:Awerito/00-javascript-basics.git
+[submodule "01-vanilla-javascript"]
+	path = 01-vanilla-javascript
+	url = git@github.com:Awerito/01-vanilla-javascript.git
