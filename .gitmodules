@@ -4,3 +4,6 @@
 [submodule "01-vanilla-javascript"]
 	path = 01-vanilla-javascript
 	url = git@github.com:Awerito/01-vanilla-javascript.git
+[submodule "02-vanilla-react"]
+	path = 02-vanilla-react
+	url = git@github.com:Awerito/02-vanilla-react.git
