@@ -20,6 +20,13 @@ You should start with the 00 folder and move on to the next one.
 1. Run npm install on the folder that needs it
 1. Start with exercises and projects
 
+## Template Repository
+
+Examples made for [React](http://reactjs.org) and
+[Mantine](https://mantine.dev) with [Vite](https://vitejs.dev) is available in
+the [Template
+Repository](https://github.com/Awerito/react-mantine-template.git).
+
 ## Contributions
 
 Pull requests welcome!
