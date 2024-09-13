@@ -17,11 +17,14 @@
 	path = 05-api-fetch
 	url = git@github.com:Awerito/05-api-fetch.git
 [submodule "06-shoping-cart"]
-	path = 06-shoping-cart
-	url = git@github.com:Awerito/06-shoping-cart.git
+	path = 06-shopping-cart
+	url = git@github.com:Awerito/06-shopping-cart.git
 [submodule "07-todo-app"]
 	path = 07-todo-app
 	url = git@github.com:Awerito/07-todo-app.git
 [submodule "08-shopping-cart-mantine"]
 	path = 08-shopping-cart-mantine
 	url = git@github.com:Awerito/08-shopping-cart-mantine.git
+[submodule "06-shopping-cart"]
+	path = 06-shopping-cart
+	url = git@github.com:Awerito/06-shopping-cart.git
