@@ -7,3 +7,6 @@
 [submodule "02-vanilla-react"]
 	path = 02-vanilla-react
 	url = git@github.com:Awerito/02-vanilla-react.git
+[submodule "03-react-hello-world"]
+	path = 03-react-hello-world
+	url = git@github.com:Awerito/03-react-hello-world.git
