@@ -19,3 +19,6 @@
 [submodule "06-shoping-cart"]
 	path = 06-shoping-cart
 	url = git@github.com:Awerito/06-shoping-cart.git
+[submodule "07-todo-app"]
+	path = 07-todo-app
+	url = git@github.com:Awerito/07-todo-app.git
