@@ -28,3 +28,6 @@
 [submodule "06-shopping-cart"]
 	path = 06-shopping-cart
 	url = git@github.com:Awerito/06-shopping-cart.git
+[submodule "09-curricular-grid"]
+	path = 09-curricular-grid
+	url = git@github.com:Awerito/09-curricular-grid.git
