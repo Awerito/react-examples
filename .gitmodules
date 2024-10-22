@@ -31,3 +31,6 @@
 [submodule "09-curricular-grid"]
 	path = 09-curricular-grid
 	url = git@github.com:Awerito/09-curricular-grid.git
+[submodule "10-react-router"]
+	path = 10-react-router
+	url = git@github.com:Awerito/10-react-router.git
