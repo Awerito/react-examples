@@ -34,3 +34,6 @@
 [submodule "10-react-router"]
 	path = 10-react-router
 	url = git@github.com:Awerito/10-react-router.git
+[submodule "11-react-native-expo"]
+	path = 11-react-native-expo
+	url = git@github.com:Awerito/11-react-native-expo.git
