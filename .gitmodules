@@ -37,3 +37,6 @@
 [submodule "11-react-native-expo"]
 	path = 11-react-native-expo
 	url = git@github.com:Awerito/11-react-native-expo.git
+[submodule "12-todo-mobile"]
+	path = 12-todo-mobile
+	url = git@github.com:Awerito/12-todo-mobile.git
