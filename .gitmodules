@@ -40,3 +40,6 @@
 [submodule "12-todo-mobile"]
 	path = 12-todo-mobile
 	url = git@github.com:Awerito/12-todo-mobile.git
+[submodule "13-memes-app"]
+	path = 13-memes-app
+	url = git@github.com:Awerito/13-memes-app.git
